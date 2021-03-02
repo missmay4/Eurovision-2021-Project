@@ -18,7 +18,7 @@ Here I'll develop a web application, where most of the function will be **vote**
 ### Web Interface
 * [Bootstrap](https://getbootstrap.com/)
 
-![Eurovision2020](eurovision-2020-rotterdam.png)
+![Eurovision2020](eurovision-2021-rotterdam.png)
 
 ## Grand Final _20/05/2021_
 
