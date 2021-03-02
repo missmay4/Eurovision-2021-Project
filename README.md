@@ -8,7 +8,7 @@ Due to the CO-VID 19 crisis affecting the whole of Europe, the 2020 edition was 
 
 Here I'll develop a web application, where most of the function will be **vote** for your favorites, as well as find the data relative to the participants of each country and more...
 
-## Tecnologías usadas: 
+## Technologies: 
 ### Client: 
 * [Vue JS](https://vuejs.org/)
 ### Server: 
