@@ -84,7 +84,7 @@ insert into participant (country_id, name, song, year, song_link, language) valu
 	((select id from country where name = 'República Checa'), 'Benny Cristo', 'Omaga', 2021, 'https://youtu.be/Kxa3ZtxIdxQ', 'Inglés y Checo'),
 	((select id from country where name = 'Rumania'), 'Roxen', 'Amnesia', 2021, 'https://youtu.be/TkRAWrDdNwg', 'Inglés'),
 	((select id from country where name = 'Rusia'), '', '', 2021, '', ''),
-	((select id from country where name = 'San Marino'), 'Senhit', '', 2021, '', ''),	
+	((select id from country where name = 'San Marino'), 'Senhit', 'Adrenalina', 2021, 'https://youtu.be/eRAN7AzEKak', 'Inglés'),	
 	((select id from country where name = 'Serbia'), 'Hurricane', 'Loco Loco', 2021, 'https://youtu.be/FSTMz-_kbVQ', 'Serbio y Español'),
 	((select id from country where name = 'Suecia'), '', '', 2021, '', ''),
 	((select id from country where name = 'Suiza'), 'Gjons Tears', '', 2021, '', ''),
