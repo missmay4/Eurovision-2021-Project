@@ -1,18 +1,27 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="home container">
+    <div class="row mt-4">
+      <Countdown name="1ª Semifinal" :date="new Date('May 18, 2021 21:00:00')" link="1" />
+      <Countdown name="2ª Semifinal" :date="new Date('May 20, 2021 21:00:00')" link="2" />
+      <Countdown name="Final" :date="new Date('May 22, 2021 21:00:00')" link="3" />
+    </div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import Countdown from "@/components/Countdown.vue";
 
 export default {
-  name: 'Home',
+  name: "home",
   components: {
-    HelloWorld
+    Countdown
   }
-}
+};
 </script>
+
+<style scoped>
+  h1 {
+    color: #2b4078;
+  }
+</style>
