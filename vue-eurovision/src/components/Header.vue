@@ -11,13 +11,12 @@
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
-        <router-link class="nav-link" to="/about">Festival</router-link>
         <router-link class="nav-link" to="/rotterdam">Rotterdam 2021</router-link>
         <router-link class="nav-link" to="/singers">Participantes</router-link>
         <router-link class="nav-link" to="/votes">Votos</router-link>
         <router-link class="nav-link" to="/moreVoted">Nuestro ranking</router-link>
         <router-link class="nav-link" to="/favorites">Favoritos</router-link>
-        <router-link class="nav-link" to="/aboutMe">Sobre mí</router-link>
+        <router-link class="nav-link" to="/about">Sobre mí</router-link>
       </b-navbar-nav>
 
       <!-- Right aligned nav items -->
