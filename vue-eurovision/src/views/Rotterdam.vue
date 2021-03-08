@@ -12,7 +12,7 @@
         />
         <p class="text-justify">La edición <b>LXV del Festival de la Canción de Eurovisión</b> se celebra en el <b>Ahoy Rotterdam</b>. Tras la cancelación del festival el pasado año debido a la pandemia de COVID-19, finalmente este año se celebrará la edición con todas las medidas sanitarias necesarias.</p>
         <p class="text-justify">Está edición será presentada por <b>Edsilia Rombley</b>, <b>Chantal Janzen</b>, <b>Jan Smit</b> y la colaboración especial de la youtuber neerlandesa <b>NikkieTutorials</b>.</p>
-        <b-container fluid class="p-4 bg-primary mb-4">
+        <b-container fluid class="p-4 bg-danger mb-4">
           <b-row>
             <b-col>
               <img class="mx-auto d-block img-fluid mb" thumbnail fluid src="../assets/Rotterdam/Chantal_ Janzen.jpg" alt="Image 1" />
@@ -92,3 +92,9 @@
     </div>
   </div>
 </template>
+
+<style scoped>
+  h1 {
+     color: #224488;
+  }
+</style>
