@@ -36,7 +36,7 @@ Aquí se va a desarrollar una appliación web, dónde la mayor funcionalidad ser
 - [x] Italia :it: (_Zitti e Buoni - Måneskin_ )
 - [x] Alemania :de: (_I Don't Feel Hate - Jendrik_)
 
-#### Semifinals Participants
+#### Participantes en Semifinales
 
 - [ ] Suecia :sweden: (_""_)
 - [ ] Bielorrusia :belarus: (_""_)
@@ -73,7 +73,7 @@ Aquí se va a desarrollar una appliación web, dónde la mayor funcionalidad ser
 - [ ] Georgia :georgia: (_You - Tornike Kipiani_)
 - [ ] Letonia :latvia: (_The Moon Is Rising - Samanta Tīna_)
 
-#### 1st Semifinal Participants: (_18/05/2021_)
-#### 2nd Semifinal Participants: (_20/05/2021_)
+#### Participantes en la 1ª Semifinal: (_18/05/2021_)
+#### Participantes en la 2º Semifinal: (_20/05/2021_)
 
-#### Not Qualified:
+#### No clasificados:
