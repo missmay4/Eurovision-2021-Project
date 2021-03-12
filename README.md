@@ -74,6 +74,6 @@ Here I'll develop a web application, where most of the function will be **vote**
 - [ ] Latvia :latvia: (_The Moon Is Rising - Samanta Tīna_)
 
 #### 1st Semifinal Participants: (_18/05/2021_)
-#### 2nd Semifinal Participants: ~_20/05/2021_)
+#### 2nd Semifinal Participants: (_20/05/2021_)
 
 #### Not Qualified:
