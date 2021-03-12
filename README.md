@@ -26,7 +26,7 @@ Here I'll develop a web application, where most of the function will be **vote**
 
 #### Host Country:
 
-- [x] Netherlands :netherlands: (_"Birth of a New Age - "Jeangu Macrooy_)
+- [x] Netherlands :netherlands: (_Birth of a New Age - Jeangu Macrooy_)
 
 #### Big Five:
 
