@@ -36,7 +36,7 @@ Aquí se va a desarrollar una appliación web, dónde la mayor funcionalidad ser
 - [x] Italia :it: (_Zitti e Buoni - Måneskin_ )
 - [x] Alemania :de: (_I Don't Feel Hate - Jendrik_)
 
-#### 1st Semifinal Participants: (_18/05/2021_)
+### Semifinals Participants
 
 - [ ] Suecia :sweden: (_""_)
 - [ ] Bielorrusia :belarus: (_""_)
@@ -55,9 +55,6 @@ Aquí se va a desarrollar una appliación web, dónde la mayor funcionalidad ser
 - [ ] Israel :israel: (_Set Me Free - Eden Alene_)
 - [ ] Rumania :romania: (_Amnesia - Roxen_)
 - [ ] Ucrania :ukraine: (_Shum - Go_A_)
-
-#### 2nd Semifinal Participants: (_20/05/2021_)
-
 - [ ] Grecia :greece: (_Last Dance - Stefania Liberakakis_)
 - [ ] Estonia :estonia: (_The Lucky One - Uku Suviste_)
 - [ ] Austria :austria: (_Amen - Vincent Bueno_)
@@ -65,7 +62,7 @@ Aquí se va a desarrollar una appliación web, dónde la mayor funcionalidad ser
 - [ ] San Marino :san_marino: (_Adrenalina- Senhit_)
 - [ ] República Checa :czech_republic: (_Omaga - Benny Cristo_)
 - [ ] Serbia :serbia: (_Loco Loco - Hurricane_)
-- [ ] Polonia :poland: (_""_)
+- [ ] Polonia :poland: (_The Ride - RAFAŁ_)
 - [ ] Islandia :iceland: (_10 Years - Daði & Gagnamagnið_)
 - [ ] Suiza :switzerland: (_Tout L'Univers - Gjon's Tears_)
 - [ ] Dinamarca :denmark: (_Øve os på hinanden - Fyr og Flamme_)
@@ -75,5 +72,8 @@ Aquí se va a desarrollar una appliación web, dónde la mayor funcionalidad ser
 - [ ] Bulgaria :bulgaria: (_Growing Up Is Getting Old - Victoria Georgieva_)
 - [ ] Georgia :georgia: (_You - Tornike Kipiani_)
 - [ ] Letonia :latvia: (_The Moon Is Rising - Samanta Tīna_)
+
+#### 1st Semifinal Participants: (_18/05/2021_)
+#### 2nd Semifinal Participants: (_20/05/2021_)
 
 #### Not Qualified:
