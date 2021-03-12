@@ -26,7 +26,7 @@ Aquí se va a desarrollar una appliación web, dónde la mayor funcionalidad ser
 
 #### País Anfitrión:
 
-- [x] Países Bajos :netherlands: (_"Birth of a New Age - "Jeangu Macrooy_)
+- [x] Países Bajos :netherlands: (_Birth of a New Age - Jeangu Macrooy_)
 
 #### Big Five:
 
