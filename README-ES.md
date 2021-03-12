@@ -18,63 +18,62 @@ Aquí se va a desarrollar una appliación web, dónde la mayor funcionalidad ser
 ### Interfaz web
 * [Bootstrap](https://getbootstrap.com/)
 
-![Eurovision2020](eurovision-2021-rotterdam.png)
+![Eurovision2021](eurovision-2021-rotterdam.png)
 
-## Gran Final _20/05/2021_
+## Gran Final _22/05/2021_
 
 ### Participantes
 
 #### País Anfitrión:
 
-- [x] Países Bajos :netherlands: (_Jeangu Macrooy_)
+- [x] Países Bajos :netherlands: (_Birth of a New Age - Jeangu Macrooy_)
 
 #### Big Five:
 
-- [x] Gran Bretaña :uk: (_"" - James Newman_)
+- [x] Gran Bretaña :uk: (_Embers - James Newman_)
 - [x] España :es: (_Voy a Quedarme - Blas Cantó_)
 - [x] Francia :fr: (_Voilá - Barbara Pravi_)
-- [x] Italia :it: (_""_ )
+- [x] Italia :it: (_Zitti e Buoni - Måneskin_ )
 - [x] Alemania :de: (_I Don't Feel Hate - Jendrik_)
 
-#### 1st Semifinal Participants: ~~(_16/05/2021_)~~
+#### Participantes en la 1ª Semifinal: (_18/05/2021_)
 
-- [ ] Suecia :sweden: (_""_)
-- [ ] Bielorrusia :belarus: (_""_)
-- [ ] Australia :australia: (_"" - Montaigne_)
 - [ ] Macedonia del Norte :macedonia: (_Here I Stand - Vasil Garvanliev_)
-- [ ] Eslovenia :slovenia: (_Amen - Ana Soklič_)
+- [ ] Bielorrusia :belarus: (_""_)
 - [ ] Lituania :lithuania: (_Discoteque - The Roop_)
+- [ ] Suecia :sweden: (_""_)
+- [ ] Eslovenia :slovenia: (_Amen - Ana Soklič_)
+- [ ] Australia :australia: (_Technicolour - Montaigne_)
 - [ ] Irlanda :ireland: (_Maps - Lesley Roy_)
-- [ ] Rusia :ru: ()
-- [ ] Bélgica :belgium: (_"" - Hooverphonic_)
-- [ ] Malta :malta: (_"" - Destiny Chukunyere_)
+- [ ] Rusia :ru: (_Russian Woman - Manizha_)
+- [ ] Noruega :norway: (_Fallen Angel - Tix_)
+- [ ] Chipre :cyprus: (_El Diablo - Elena Tsagrinou_)
 - [ ] Croacia :croatia: (_Tick-tock - Albina_)
 - [ ] Azerbaiyán :azerbaijan: (_"" - Samira Efendi_)
-- [ ] Chipre :cyprus: (_El Diablo - Elena Tsagrinou_)
-- [ ] Noruega :norway: (_Fallen Angel - Tix_)
+- [ ] Malta :malta: (_"" - Destiny Chukunyere_)
 - [ ] Israel :israel: (_Set Me Free - Eden Alene_)
-- [ ] Rumania :romania: (_"" - Roxen_)
 - [ ] Ucrania :ukraine: (_Shum - Go_A_)
+- [ ] Rumania :romania: (_Amnesia - Roxen_)
+- [ ] Bélgica :belgium: (_The Wrong Place - Hooverphonic_)
 
-#### 2nd Semifinal Participants: ~~(_18/05/2021_)~~
+#### Participantes en la 2º Semifinal: (_20/05/2021_)
 
-- [ ] Grecia :greece: (_Last Dance - Stefania Liberakakis_)
-- [ ] Estonia :estonia: (_""_)
 - [ ] Austria :austria: (_Amen - Vincent Bueno_)
 - [ ] Moldavia :moldova: (_Sugar - Natalia Gordienco_)
-- [ ] San Marino :san_marino: (_""- Senhit_)
-- [ ] República Checa :czech_republic: (_Omaga - Benny Cristo_)
+- [ ] Polonia :poland: (_The Ride - RAFAŁ_)
+- [ ] San Marino :san_marino: (_Adrenalina- Senhit_)
 - [ ] Serbia :serbia: (_Loco Loco - Hurricane_)
-- [ ] Polonia :poland: (_""_)
 - [ ] Islandia :iceland: (_10 Years - Daði & Gagnamagnið_)
-- [ ] Suiza :switzerland: (_""_)
-- [ ] Dinamarca :denmark: (_""_)
-- [ ] Albania :albania: (_Karma - Anxhela Peristeri_)
+- [ ] República Checa :czech_republic: (_Omaga - Benny Cristo_)
+- [ ] Grecia :greece: (_Last Dance - Stefania Liberakakis_)
+- [ ] Estonia :estonia: (_The Lucky One - Uku Suviste_)
+- [ ] Dinamarca :denmark: (_Øve os på hinanden - Fyr og Flamme_)
+- [ ] Bulgaria :bulgaria: (_Growing Up Is Getting Old - Victoria Georgieva_)
+- [ ] Suiza :switzerland: (_Tout L'Univers - Gjon's Tears_)
 - [ ] Finlandia :finland: (_Dark Side - Blind Channel_)
-- [ ] Armenia :armenia: (_""_)
-- [ ] Portugal :portugal: (_""_)
-- [ ] Bulgaria :bulgaria: (_"" - Victoria Georgieva_)
 - [ ] Georgia :georgia: (_You - Tornike Kipiani_)
-- [ ] Letonia :latvia: (_"" - Samanta Tīna_)
+- [ ] Letonia :latvia: (_The Moon Is Rising - Samanta Tīna_)
+- [ ] Portugal :portugal: (_Love is on my Side - The Black Mamba_)
+- [ ] Albania :albania: (_Karma - Anxhela Peristeri_)
 
-#### Not Qualified:
+#### No clasificados:
