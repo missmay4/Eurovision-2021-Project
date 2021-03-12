@@ -36,7 +36,7 @@ Here I'll develop a web application, where most of the function will be **vote**
 - [x] Italy :it: (_Zitti e Buoni - Måneskin_ )
 - [x] Germany :de: (_I Don't Feel Hate - Jendrik_)
 
-### Participants
+#### Semifinals Participants
 
 - [ ] Sweden :sweden: (_""_)
 - [ ] Belarus :belarus: (_""_)
