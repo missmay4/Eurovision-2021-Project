@@ -50,7 +50,7 @@ Here I'll develop a web application, where most of the function will be **vote**
 - [ ] Cyprus :cyprus: (_El Diablo - Elena Tsagrinou_)
 - [ ] Croatia :croatia: (_Tick-tock - Albina_)
 - [ ] Azerbaijan :azerbaijan: (_Mata Hari - Efendi_)
-- [ ] Malta :malta: (_Je Me Casse - Destiny Chukunyere_)
+- [ ] Malta :malta: (_Je Me Casse - Destiny_)
 - [ ] Israel :israel: (_Set Me Free - Eden Alene_)
 - [ ] Ukraine :ukraine: (_Shum - Go_A_)
 - [ ] Romania :romania: (_Amnesia - Roxen_)
