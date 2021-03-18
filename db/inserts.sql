@@ -70,7 +70,7 @@ insert into participant (country_id, name, song, year, song_link, language) valu
 	((select id from country where name = 'Irlanda'), 'Lesley Roy', 'Maps', 2021, 'https://youtu.be/z6ZUBzqPxds', 'Inglés'),
 	((select id from country where name = 'Islandia'), 'Daði & Gagnamagnið', '10 Years', 2021, 'https://youtu.be/ORDK1XQToAY', 'Inglés'),
 	((select id from country where name = 'Israel'), 'Eden Alene', 'Set Me Free', 2021, 'https://youtu.be/opmTs9uvENI', 'Inglés y Hebreo'),
-	((select id from country where name = 'Italia'), 'Måneskin', 'Zitti e buoni', 2021, '', 'Italiano'),
+	((select id from country where name = 'Italia'), 'Måneskin', 'Zitti e buoni', 2021, 'https://youtu.be/9mL6Cmkg2_A', 'Italiano'),
 	((select id from country where name = 'Letonia'), 'Samanta Tīna', 'The Moon is Rising', 2021, 'https://youtu.be/NBaCWHSyDzo', 'Inglés'),
 	((select id from country where name = 'Lituania'), 'The Roop', 'Discoteque', 2021, 'https://youtu.be/0rsUJWSwb0c', 'Inglés'),
 	((select id from country where name = 'Macedonia del Norte'), 'Vasil Garvanliev', 'Here I Stand', 2021, 'https://youtu.be/nd4YfjVWrro', 'Inglés'),
@@ -86,7 +86,7 @@ insert into participant (country_id, name, song, year, song_link, language) valu
 	((select id from country where name = 'Rusia'), 'Manizha', 'Russian Woman', 2021, 'https://youtu.be/l01wa2ChX64', 'Ruso e Ingles'),
 	((select id from country where name = 'San Marino'), 'Senhit', 'Adrenalina', 2021, 'https://youtu.be/eRAN7AzEKak', 'Inglés e Italiano'),	
 	((select id from country where name = 'Serbia'), 'Hurricane', 'Loco Loco', 2021, 'https://youtu.be/FSTMz-_kbVQ', 'Serbio, Español e Inglés'),
-	((select id from country where name = 'Suecia'), 'Tusse', 'Voices', 2021, '', 'Inglés'),
+	((select id from country where name = 'Suecia'), 'Tusse', 'Voices', 2021, 'https://youtu.be/5P1ueI9j6gk', 'Inglés'),
 	((select id from country where name = 'Suiza'), 'Gjons Tears', "Tout l'Univers", 2021, 'https://youtu.be/bpM6o6UiBIw', 'Francés'),
 	((select id from country where name = 'Ucrania'), 'Go_A', 'Shum', 2021, 'https://youtu.be/U7-dxzp6Jvs', 'Ucraniano')
 
