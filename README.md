@@ -39,7 +39,6 @@ Here I'll develop a web application, where most of the function will be **vote**
 #### 1st Semifinal Participants: (_18/05/2021_)
 
 - [ ] North Macedonia :macedonia: (_Here I Stand - Vasil Garvanliev_)
-- [ ] Belarus :belarus: (_""_)
 - [ ] Lithuania :lithuania: (_Discoteque - The Roop_)
 - [ ] Sweden :sweden: (_Voices - Tusse_)
 - [ ] Slovenia :slovenia: (_Amen - Ana Soklič_)
