@@ -39,7 +39,6 @@ Aquí se va a desarrollar una appliación web, dónde la mayor funcionalidad ser
 #### Participantes en la 1ª Semifinal: (_18/05/2021_)
 
 - [ ] Macedonia del Norte :macedonia: (_Here I Stand - Vasil Garvanliev_)
-- [ ] Bielorrusia :belarus: (_""_)
 - [ ] Lituania :lithuania: (_Discoteque - The Roop_)
 - [ ] Suecia :sweden: (_Voices - Tusse_)
 - [ ] Eslovenia :slovenia: (_Amen - Ana Soklič_)
