@@ -12,9 +12,10 @@ Here I'll develop a web application, where most of the function will be **vote**
 ### Client: 
 * [Vue JS](https://vuejs.org/)
 ### Server: 
-
+* [Node-Express](https://expressjs.com/)
 ### Database:
-* [PostgreSQL](https://www.postgresql.org/)
+* [MongoDB](https://www.mongodb.com/)
+* [Mongoose](https://mongoosejs.com/)
 ### Web Interface
 * [Bootstrap](https://getbootstrap.com/)
 
