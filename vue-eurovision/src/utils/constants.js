@@ -1,8 +1,12 @@
+// Constantes para las llamadas a la API
 const urlApi = ''
-// TODO: Constantes para las llamadas a la API
+const participant = 'participant'
+const participants = "participants"
 
 const services = {
-    // 'nombre': urlApi + constante + 'llamada api'
+    'GET_PARTICIPANTS': urlApi + participants,
+    'GET_PARTICIPANT': urlApi + participant
+
 }
 
 export const constants = {
