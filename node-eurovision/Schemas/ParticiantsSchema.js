@@ -31,21 +31,22 @@ const ParticiantsSchema = new mongoose.Schema({
         type: String,
         require: true
     },
-    gala: {
-        type: {
-            type: String,
-            require: true
-        },
-        date: {
-            type: String,
-            require: true
-        },
-        performanceOrder: {
-            type: Number,
-            require: true
-        },
-        points: Number
-    }
+    gala: [
+        {
+            type: {
+                type: String,
+                require: true
+            },
+            date: {
+                type: String,
+                require: true
+            },
+            performanceOrder: {
+                type: Number,
+                require: true
+            }
+        }
+    ]
 
 });
 

@@ -1,0 +1,869 @@
+[
+  {
+    "country": {
+      "code": "AL",
+      "name": "Albania"
+    },
+    "name": "Anxhela Peristeri",
+    "song": "Karma",
+    "year": 2021,
+    "song_link": "https://youtu.be/Q4D_RfEFwd4",
+    "language": "Albanian",
+    "gala": [
+      {
+        "type": "Semifinal",
+        "date": "2021-05-20",
+        "performanceOrder": 11
+      },
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": 11
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "AU",
+      "name": "Australia"
+    },
+    "name": "Montaigne",
+    "song": "Technicolour",
+    "year": 2021,
+    "song_link": "https://youtu.be/ghT5QderxCA",
+    "language": "English",
+    "gala": [
+      {
+        "type": "Semifinal",
+        "date": "2021-05-20",
+        "performanceOrder": 5
+      },
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "AT",
+      "name": "Austria"
+    },
+    "name": "Vicent Bueno",
+    "song": "Amen",
+    "year": 2021,
+    "song_link": "https://youtu.be/1sY76L68rfs",
+    "language": "English",
+    "gala": [
+      {
+        "type": "Semifinal",
+        "date": "2021-05-20",
+        "performanceOrder": 5
+      },
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "AZ",
+      "name": "Azerbaijan"
+    },
+    "name": "Efendi",
+    "song": "Mata Hari",
+    "year": 2021,
+    "song_link": "https://youtu.be/HSiZmR1c7Q4",
+    "language": "English and Azerbaijani",
+    "gala": [
+      {
+        "type": "Semifinal",
+        "date": "2021-05-18",
+        "performanceOrder": 14
+      },
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "BE",
+      "name": "Belgium"
+    },
+    "name": "Hooverphonic",
+    "song": "The Wrong Place",
+    "year": 2021,
+    "song_link": "https://youtu.be/0EQyG1Yjlgw",
+    "language": "English",
+    "gala": [
+      {
+        "type": "Semifinal",
+        "date": "2021-05-18",
+        "performanceOrder": 11
+      },
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "BG",
+      "name": "Bulgaria"
+    },
+    "name": "Victoria",
+    "song": "Growing Up Is Getting Old",
+    "year": 2021,
+    "song_link": "https://youtu.be/qMNxCzuEdVM",
+    "language": "English",
+    "gala": [
+      {
+        "type": "Semifinal",
+        "date": "2021-05-20",
+        "performanceOrder": 13
+      },
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "HR",
+      "name": "Croatia"
+    },
+    "name": "Albina",
+    "song": "Tick-Tock",
+    "year": 2021,
+    "song_link": "https://youtu.be/IHS_2GpNwmA",
+    "language": "English and Croatian",
+    "gala": [
+      {
+        "type": "Semifinal",
+        "date": "2021-05-18",
+        "performanceOrder": 10
+      },
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "CY",
+      "name": "Cyprus"
+    },
+    "name": "Elena Tsagrinou",
+    "song": "El Diablo",
+    "year": 2021,
+    "song_link": "https://youtu.be/mk4amZlPa4g",
+    "language": "English and Spanish",
+    "gala": [
+      {
+        "type": "Semifinal",
+        "date": "2021-05-18",
+        "performanceOrder": 8
+      },
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "CZ",
+      "name": "Czech Republic"
+    },
+    "name": "Benny Cristo",
+    "song": "Omaga",
+    "year": 2021,
+    "song_link": "https://youtu.be/Kxa3ZtxIdxQ",
+    "language": "English and Czech",
+    "gala": [
+      {
+        "type": "Semifinal",
+        "date": "2021-05-20",
+        "performanceOrder": 3
+      },
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "DK",
+      "name": "Denmark"
+    },
+    "name": "Fyr & Flamme",
+    "song": "Øve Os På Hinanden",
+    "year": 2021,
+    "song_link": "https://youtu.be/axzrdVUdQzQ",
+    "language": "Danish",
+    "gala": [
+      {
+        "type": "Semifinal",
+        "date": "2021-05-20",
+        "performanceOrder": 17
+      },
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "EE",
+      "name": "Estonia"
+    },
+    "name": "Uku Suviste",
+    "song": "The Lucky One",
+    "year": 2021,
+    "song_link": "https://youtu.be/QC06nyML2xg",
+    "language": "English",
+    "gala": [
+      {
+        "type": "Semifinal",
+        "date": "2021-05-20",
+        "performanceOrder": 2
+      },
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "FI",
+      "name": "Finland"
+    },
+    "name": "Blind Channel",
+    "song": "Dark Side",
+    "year": 2021,
+    "song_link": "https://youtu.be/cIvaeu6Oxzc",
+    "language": "English",
+    "gala": [
+      {
+        "type": "Semifinal",
+        "date": "2021-05-20",
+        "performanceOrder": 14
+      },
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "FR",
+      "name": "France"
+    },
+    "name": "Barbara Pravi",
+    "song": "Voilà",
+    "year": 2021,
+    "song_link": "https://youtu.be/-9t_SwPN31s",
+    "language": "French",
+    "gala": [
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "GE",
+      "name": "Georgia"
+    },
+    "name": "Tornike Kipiani",
+    "song": "You",
+    "year": 2021,
+    "song_link": "https://youtu.be/w6jzan8nfxc",
+    "language": "English",
+    "gala": [
+      {
+        "type": "Semifinal",
+        "date": "2021-05-20",
+        "performanceOrder": 10
+      },
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "DE",
+      "name": "Germany"
+    },
+    "name": "Jendrik",
+    "song": "I Don't Feel Hate",
+    "year": 2021,
+    "song_link": "https://youtu.be/ydgxZnHFLi4",
+    "language": "German and English",
+    "gala": [
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "GR",
+      "name": "Greece"
+    },
+    "name": "Stefania",
+    "song": "Last Dance",
+    "year": 2021,
+    "song_link": "https://youtu.be/Er06NBWo4bs",
+    "language": "English",
+    "gala": [
+      {
+        "type": "Semifinal",
+        "date": "2021-05-20",
+        "performanceOrder": 4
+      },
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "IS",
+      "name": "Iceland"
+    },
+    "name": "Daði og Gagnamagnið",
+    "song": "10 Years",
+    "year": 2021,
+    "song_link": "https://youtu.be/ORDK1XQToAY",
+    "language": "English",
+    "gala": [
+      {
+        "type": "Semifinal",
+        "date": "2021-05-20",
+        "performanceOrder": 8
+      },
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "IE",
+      "name": "Ireland"
+    },
+    "name": "Lesley Roy",
+    "song": "Maps",
+    "year": 2021,
+    "song_link": "https://youtu.be/z6ZUBzqPxds",
+    "language": "English",
+    "gala": [
+      {
+        "type": "Semifinal",
+        "date": "2021-05-18",
+        "performanceOrder": 7
+      },
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "IL",
+      "name": "Israel"
+    },
+    "name": "Eden Alene",
+    "song": "Set Me Free",
+    "year": 2021,
+    "song_link": "https://youtu.be/9nss3FsrgJo",
+    "language": "English and Hebrew",
+    "gala": [
+      {
+        "type": "Semifinal",
+        "date": "2021-05-18",
+        "performanceOrder": 12
+      },
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "IT",
+      "name": "Italy"
+    },
+    "name": "Måneskin",
+    "song": "Zitti E Buoni",
+    "year": 2021,
+    "song_link": "https://youtu.be/9mL6Cmkg2_A",
+    "language": "Italian",
+    "gala": [
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "LV",
+      "name": "Latvia"
+    },
+    "name": "Samanta Tina",
+    "song": "The Moon Is Rising",
+    "year": 2021,
+    "song_link": "https://youtu.be/NBaCWHSyDzo",
+    "language": "English",
+    "gala": [
+      {
+        "type": "Semifinal",
+        "date": "2021-05-20",
+        "performanceOrder": 15
+      },
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "LT",
+      "name": "Lithuania"
+    },
+    "name": "The Roop",
+    "song": "Discoteque",
+    "year": 2021,
+    "song_link": "https://youtu.be/0rsUJWSwb0c",
+    "language": "English",
+    "gala": [
+      {
+        "type": "Semifinal",
+        "date": "2021-05-18",
+        "performanceOrder": 1
+      },
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "MT",
+      "name": "Malta"
+    },
+    "name": "Destiny",
+    "song": "Je me casse",
+    "year": 2021,
+    "song_link": "https://youtu.be/PQKiHr5qEfA",
+    "language": "English and French",
+    "gala": [
+      {
+        "type": "Semifinal",
+        "date": "2021-05-18",
+        "performanceOrder": 16
+      },
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "MD",
+      "name": "Moldova"
+    },
+    "name": "Natalia Gordienko",
+    "song": "Sugar",
+    "year": 2021,
+    "song_link": "https://youtu.be/1zvnsvxA3to",
+    "language": "English",
+    "gala": [
+      {
+        "type": "Semifinal",
+        "date": "2021-05-20",
+        "performanceOrder": 7
+      },
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "NL",
+      "name": "Netherlands"
+    },
+    "name": "Jeangu Macrooy",
+    "song": "Birth Of A New Age",
+    "year": 2021,
+    "song_link": "https://youtu.be/p4Fag4yajxk",
+    "language": "English and Sranan Tongo",
+    "gala": [
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": 23
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "MK",
+      "name": "North Macedonia"
+    },
+    "name": "Vasil",
+    "song": "Here I Stand",
+    "year": 2021,
+    "song_link": "https://youtu.be/nd4YfjVWrro",
+    "language": "English",
+    "gala": [
+      {
+        "type": "Semifinal",
+        "date": "2021-05-18",
+        "performanceOrder": 6
+      },
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "NO",
+      "name": "Norway"
+    },
+    "name": "Tix",
+    "song": "Fallen Angel",
+    "year": 2021,
+    "song_link": "https://youtu.be/HOHvWB5OU-Q",
+    "language": "English",
+    "gala": [
+      {
+        "type": "Semifinal",
+        "date": "2021-05-18",
+        "performanceOrder": 9
+      },
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "PL",
+      "name": "Poland"
+    },
+    "name": "RAFAŁ",
+    "song": "The Ride",
+    "year": 2021,
+    "song_link": "https://youtu.be/xsWwLWaZBq8",
+    "language": "English",
+    "gala": [
+      {
+        "type": "Semifinal",
+        "date": "2021-05-20",
+        "performanceOrder": 6
+      },
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "PT",
+      "name": "Portugal"
+    },
+    "name": "The Black Mamba",
+    "song": "Love Is On My Side",
+    "year": 2021,
+    "song_link": "https://youtu.be/2hAlp3Khsnk",
+    "language": "English",
+    "gala": [
+      {
+        "type": "Semifinal",
+        "date": "2021-05-20",
+        "performanceOrder": 12
+      },
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "RO",
+      "name": "Romania"
+    },
+    "name": "Roxen",
+    "song": "Amnesia",
+    "year": 2021,
+    "song_link": "https://youtu.be/TkRAWrDdNwg",
+    "language": "English",
+    "gala": [
+      {
+        "type": "Semifinal",
+        "date": "2021-05-18",
+        "performanceOrder": 13
+      },
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "RU",
+      "name": "Russia"
+    },
+    "name": "Manizha",
+    "song": "Russian Woman",
+    "year": 2021,
+    "song_link": "https://youtu.be/l01wa2ChX64",
+    "language": "Russian and English",
+    "gala": [
+      {
+        "type": "Semifinal",
+        "date": "2021-05-18",
+        "performanceOrder": 3
+      },
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "SM",
+      "name": "San Marino"
+    },
+    "name": "Senhit",
+    "song": "Adrenalina",
+    "year": 2021,
+    "song_link": "https://youtu.be/eRAN7AzEKak",
+    "language": "English and Italian",
+    "gala": [
+      {
+        "type": "Semifinal",
+        "date": "2021-05-20",
+        "performanceOrder": 1
+      },
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "SE",
+      "name": "Serbia"
+    },
+    "name": "Hurricane",
+    "song": "Loco Loco",
+    "year": 2021,
+    "song_link": "https://youtu.be/FSTMz-_kbVQ",
+    "language": "Serbian, Spanish and English",
+    "gala": [
+      {
+        "type": "Semifinal",
+        "date": "2021-05-20",
+        "performanceOrder": 9
+      },
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "SI",
+      "name": "Slovenia"
+    },
+    "name": "Ana Soklič",
+    "song": "Amen",
+    "year": 2021,
+    "song_link": "https://youtu.be/p5LW-09r2JQ",
+    "language": "English",
+    "gala": [
+      {
+        "type": "Semifinal",
+        "date": "2021-05-18",
+        "performanceOrder": 2
+      },
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "ES",
+      "name": "Spain"
+    },
+    "name": "Blas Cantó",
+    "song": "Voy a quedarme",
+    "year": 2021,
+    "song_link": "https://youtu.be/qb5FXBwSx44",
+    "language": "Spanish",
+    "gala": [
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "SE",
+      "name": "Sweden"
+    },
+    "name": "Tusse",
+    "song": "Voices",
+    "year": 2021,
+    "song_link": "https://youtu.be/5P1ueI9j6gk",
+    "language": "English",
+    "gala": [
+      {
+        "type": "Semifinal",
+        "date": "2021-05-18",
+        "performanceOrder": 4
+      },
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "CH",
+      "name": "Switzerland"
+    },
+    "name": "Gjon's Tears",
+    "song": "Tout l’Univers",
+    "year": 2021,
+    "song_link": "https://youtu.be/bpM6o6UiBIw",
+    "language": "French",
+    "gala": [
+      {
+        "type": "Semifinal",
+        "date": "2021-05-20",
+        "performanceOrder": 18
+      },
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "UA",
+      "name": "Ukraine"
+    },
+    "name": "Go_A",
+    "song": "SHUM",
+    "year": 2021,
+    "song_link": "https://youtu.be/U7-dxzp6Jvs",
+    "language": "Ukranian",
+    "gala": [
+      {
+        "type": "Semifinal",
+        "date": "2021-05-18",
+        "performanceOrder": 15
+      },
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  },
+  {
+    "country": {
+      "code": "GB",
+      "name": "United Kingdom"
+    },
+    "name": "James Newman",
+    "song": "Embers",
+    "year": 2021,
+    "song_link": "https://youtu.be/BMDGTsa_Qq0",
+    "language": "English",
+    "gala": [
+      {
+        "type": "Final",
+        "date": "2021-05-22",
+        "performanceOrder": null
+      }
+    ]
+  }
+]
