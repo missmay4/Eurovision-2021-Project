@@ -1,7 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const userModel = require('../Schemas/UserSchema')
+const userService = require('./../Daos/UsersDao')
 const { checkAuth, checkRole } = require('../middlewares/authentication')
+let Logger = require('../Utils/logger').Logger
 
 // Hash password
 const bcrypt = require('bcrypt');
@@ -10,19 +11,26 @@ const saltRounds = 10;
 // Filtrar campos de PUT
 const _ = require('underscore');
 
-router.post('/user', [checkAuth, checkRole], async (req, res) => {
+router.post('/user',/*[checkAuth, checkRole('Patata')],*/ async (req, res) => {
+
+    Logger.info("Creating new User ... ")
+    
     const body = {
         name: req.body.name,
         role: req.body.role
     }
     body.password = bcrypt.hashSync(req.body.password, saltRounds);
-
     try {
-        const userDB = await userModel.create(body);
+        Logger.info("Calls userService.createUser")
+        Logger.debug(JSON.stringify(body))
+        const userDB = await userService.createUser(body);
+        Logger.info("Response JSON")
+        Logger.debug(JSON.stringify(userDB))
         res.send(JSON.stringify(userDB))
-
-        // return res.json(userDB);
     } catch (error) {
+
+        Logger.error(error)
+
         return res.status(500).json({
             msg: 'Error creating the user',
             error

@@ -3,3 +3,7 @@ src/API/target
 .classpath
 .project
 .settings
+.env
+.env.*
+*.log
+.vs

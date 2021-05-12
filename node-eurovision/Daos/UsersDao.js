@@ -1,7 +1,7 @@
-const UsersModel = require('../Schemas/ParticiantsSchema').UsersModel
+const UsersModel = require('../Schemas/UserSchema').UserModel
 
 exports.createUser = async (user) => {
-    return new ParticipantsModel(user).save()
+    return new UsersModel(user).save();
 }
 exports.getUsers = async () => {
     return UsersModel.find()
