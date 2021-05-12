@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import store from '../store'
+// import store from '../store'
 import Home from '../views/Home.vue'
 import Rotterdam from '../views/Rotterdam.vue'
 
@@ -21,7 +21,7 @@ const routes = [
     path: '/singers',
     name: 'listParticipants',
     component: () => import(/* webpackChunkName: "listParticipants" */ '../views/listParticipants.vue'),
-    meta: { requireAuth: true }
+    // meta: { requireAuth: true }
   },
   {
     path: '/firstSemifinal',
@@ -52,7 +52,7 @@ const router = new VueRouter({
   routes
 })
 
-router.beforeEach((to, from, next) => {
+/* router.beforeEach((to, from, next) => {
   const protectedRoute = to.matched.some(record => record.meta.requireAuth);
 
   if (protectedRoute && store.state.token === '') {
@@ -60,6 +60,6 @@ router.beforeEach((to, from, next) => {
   } else {
     next()
   }
-})
+}) */
 
 export default router
