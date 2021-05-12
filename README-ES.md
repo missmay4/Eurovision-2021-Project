@@ -16,7 +16,7 @@ Aquí se va a desarrollar una appliación web, dónde la mayor funcionalidad ser
 ### Base de datos:
 * [PostgreSQL](https://www.postgresql.org/)
 ### Interfaz web
-* [Bootstrap](https://getbootstrap.com/)
+* [Bootstrap-vue](https://bootstrap-vue.org/)
 
 ![Eurovision2021](eurovision-2021-rotterdam.png)
 
