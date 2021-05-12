@@ -18,27 +18,10 @@ Here I'll develop a web application, where most of the function will be **vote**
 * [Mongoose](https://mongoosejs.com/)
 ### Web Interface
 * [Bootstrap-vue](https://bootstrap-vue.org/)
+<!-- ![Eurovision2021](eurovision-2021-rotterdam.png) -->
 
-![Eurovision2021](eurovision-2021-rotterdam.png)
-
-## Grand Final _22/05/2021_
-
-### Participants
-
-#### Host Country:
-
-- [x] Netherlands :netherlands: (_Birth of a New Age - Jeangu Macrooy_)
-
-#### Big Five:
-
-- [x] Great Britain :uk: (_Embers - James Newman_)
-- [x] Spain :es: (_Voy a Quedarme - Blas Cantó_)
-- [x] France :fr: (_Voilá - Barbara Pravi_)
-- [x] Italy :it: (_Zitti e Buoni - Måneskin_ )
-- [x] Germany :de: (_I Don't Feel Hate - Jendrik_)
-
-#### 1st Semifinal Participants: (_18/05/2021_)
-
+## Participants
+### 1st Semifinal Participants: (_18/05/2021_)
 - [ ] Lithuania :lithuania: (_Discoteque - The Roop_)
 - [ ] Slovenia :slovenia: (_Amen - Ana Soklič_)
 - [ ] Russia :ru: (_Russian Woman - Manizha_)
@@ -56,8 +39,7 @@ Here I'll develop a web application, where most of the function will be **vote**
 - [ ] Ukraine :ukraine: (_Shum - Go_A_)
 - [ ] Malta :malta: (_Je Me Casse - Destiny_)
 
-#### 2nd Semifinal Participants: (_20/05/2021_)
-
+### 2nd Semifinal Participants: (_20/05/2021_)
 - [ ] San Marino :san_marino: (_Adrenalina- Senhit_)
 - [ ] Estonia :estonia: (_The Lucky One - Uku Suviste_)
 - [ ] Czech Republic :czech_republic: (_Omaga - Benny Cristo_)
@@ -76,4 +58,15 @@ Here I'll develop a web application, where most of the function will be **vote**
 - [ ] Switzerland :switzerland: (_Tout L'Univers - Gjon's Tears_)
 - [ ] Denmark :denmark: (_Øve os på hinanden - Fyr og Flamme_)
 
-#### Not Qualified:
+### Not Qualified:
+
+### Final _22/05/2021_
+#### Host Country:
+- [x] Netherlands :netherlands: (_Birth of a New Age - Jeangu Macrooy_)
+#### Big Five:
+- [x] Great Britain :uk: (_Embers - James Newman_)
+- [x] Spain :es: (_Voy a Quedarme - Blas Cantó_)
+- [x] France :fr: (_Voilá - Barbara Pravi_)
+- [x] Italy :it: (_Zitti e Buoni - Måneskin_ )
+- [x] Germany :de: (_I Don't Feel Hate - Jendrik_)
+#### Semifinalist:
