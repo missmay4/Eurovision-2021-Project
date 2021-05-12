@@ -14,7 +14,7 @@ const _ = require('underscore');
 router.post('/user',/*[checkAuth, checkRole('Patata')],*/ async (req, res) => {
 
     Logger.info("Creating new User ... ")
-    
+
     const body = {
         name: req.body.name,
         role: req.body.role
@@ -37,6 +37,23 @@ router.post('/user',/*[checkAuth, checkRole('Patata')],*/ async (req, res) => {
         });
     }
 });
+
+router.get('/users', async (req, res) => {
+    try {
+        const response = await userService.getUsers();
+        res.send(JSON.stringify(response))
+
+    } catch (error) {
+        Logger.error(error)
+        // console.log(error)
+        res.statusCode = 500
+        res.send({
+            errorMessage: error,
+            statusCode: 500
+        });
+
+    }
+})
 
 router.get('/', function (req, res, next) {
     res.send('Respond with a resource');
