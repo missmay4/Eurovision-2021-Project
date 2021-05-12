@@ -18,7 +18,7 @@ Aquí se va a desarrollar una appliación web, dónde la mayor funcionalidad ser
 ### Interfaz web
 * [Bootstrap-vue](https://bootstrap-vue.org/)
 
-![Eurovision2021](eurovision-2021-rotterdam.png)
+<!-- ![Eurovision2021](eurovision-2021-rotterdam.png) -->
 
 ## Gran Final _22/05/2021_
 
