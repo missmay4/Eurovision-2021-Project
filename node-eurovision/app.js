@@ -1,11 +1,13 @@
 // Express
 const express = require('express')
-var cors = require('cors')
+let cors = require('cors')
 const server = express()
-
+require('./Utils/enviroments').config()
+let morganLogger = require('./Utils/logger').morganLogger
+let Logger = require('./Utils/logger').Logger
 //Middleware cors
 server.use(cors())
-
+server.use(morganLogger)
 // Database connection
 const connection_db = require('./db/conecction_db').connect
 
@@ -38,6 +40,6 @@ server.get('/participants', (request, response, next) => {
 })
 
 server.listen(8080, () => {
-    console.log("Server starting on localhost:8080")
-    console.log('CORS-enabled web server listening on port 8080')
+    Logger.info("Server starting on localhost:8080")
+    Logger.info('CORS-enabled web server listening on port 8080')
 });

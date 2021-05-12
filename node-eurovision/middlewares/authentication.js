@@ -2,7 +2,7 @@ const jwt = require('jsonwebtoken');
 
 const checkAuth = (req, res, next) => {
     let token = req.get('token');
-    jwt.verify(token, 'secret', (err, decoded) => {
+    jwt.verify(token, process.env.JWT_SECRET, (err, decoded) => {
         if (err) {
             return res.status(401).json({
                 msg: 'Token error',

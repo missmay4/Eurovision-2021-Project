@@ -1,7 +1,7 @@
-/* const userDAO = require('../Daos/ParticipantsDao');
+const userDAO = require('../Daos/ParticipantsDao');
 
 exports.createUser = async (user) => {
-    // return userDAO.createParticipant(user);
+    return userDAO.createParticipant(user);
 }
 exports.getUsers = async () => {
     return userDAO.getUsers();
@@ -14,4 +14,4 @@ exports.updateUser = async (user) => {
 }
 exports.deleteUser = async (userID) => {
     return userDAO.deleteParticipant(userID);
-} */
+} 
