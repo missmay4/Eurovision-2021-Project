@@ -17,7 +17,7 @@ Here I'll develop a web application, where most of the function will be **vote**
 * [MongoDB](https://www.mongodb.com/)
 * [Mongoose](https://mongoosejs.com/)
 ### Web Interface
-* [Bootstrap](https://getbootstrap.com/)
+* [Bootstrap-vue](https://bootstrap-vue.org/)
 
 ![Eurovision2021](eurovision-2021-rotterdam.png)
 
