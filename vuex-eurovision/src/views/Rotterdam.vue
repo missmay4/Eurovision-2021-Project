@@ -1,0 +1,192 @@
+<template>
+  <div class="container">
+    <div class="row"></div>
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-6">
+        <h1 class="mt-4">Rotterdam 2021</h1>
+        <img
+          class="mx-auto d-block img-fluid mb"
+          src="../assets/Rotterdam/EUROVISION_LOGO_2021_(ROTTERDAM).jpg"
+          width="300px"
+        />
+        <p class="text-justify">
+          La edición <b>LXV del Festival de la Canción de Eurovisión</b> se
+          celebra en el <b>Ahoy Rotterdam</b>. Tras la cancelación del festival
+          el pasado año debido a la pandemia de COVID-19, finalmente este año se
+          celebrará la edición con todas las medidas sanitarias necesarias.
+        </p>
+        <p>
+          Este año, y debido a la pandemia contará con un espacio al que se
+          podrá acceder online, y que sustituye a los eventos previos a la
+          realizacion del concurso en la ciudad representante. El
+          <b>
+            <a href="https://www.eurovisionvillage.com/"
+              >Eurovision Village</a
+            ></b
+          >
+          es la zona oficial dedicada a los fans y a los patrocinadores del
+          concurso, en la que es posible disfrutar de conciertos en directo de
+          los distintos participantes así como de sesiones de DJ, o de la
+          emisión de las distintas galas en las que se extiende el festival.
+        </p>
+        <!-- <p class="text-justify">
+          Está edición será presentada por <b>Edsilia Rombley</b>,
+          <b>Chantal Janzen</b>, <b>Jan Smit</b> y la colaboración especial de
+          la youtuber neerlandesa <b>NikkieTutorials</b>.
+        </p>
+        <b-container fluid class="p-4 bg-danger mb-4">
+          <b-row>
+            <b-col>
+              <img
+                class="mx-auto d-block img-fluid mb"
+                thumbnail
+                fluid
+                src="../assets/Rotterdam/Chantal_ Janzen.jpg"
+                alt="Image 1"
+              />
+            </b-col>
+            <b-col>
+              <img
+                class="mx-auto d-block img-fluid mb"
+                thumbnail
+                fluid
+                src="../assets/Rotterdam/Edsilia_Rombley.jpg"
+                alt="Image 1"
+              />
+            </b-col>
+            <b-col>
+              <img
+                class="mx-auto d-block img-fluid mb"
+                thumbnail
+                fluid
+                src="../assets/Rotterdam/Jan_Smit.jpg"
+                alt="Image 1"
+              />
+            </b-col>
+            <b-col>
+              <img
+                class="mx-auto d-block img-fluid mb"
+                thumbnail
+                fluid
+                src="../assets/Rotterdam/Nikkie_Tutorials.jpg"
+                alt="Image 1"
+              />
+            </b-col>
+          </b-row>
+        </b-container> -->
+        <p class="text-justify">
+          El lema de esta edición es <i><b>Open Up</b> («Ábrete»)</i>, el mismo
+          que se habría utilizado en 2020. Con este eslogan se quiere reflejar
+          la apertura de mente de los Países Bajos de cara al mundo, invitando a
+          las personas a abrirse a los demás, a las diferentes opiniones, a las
+          historias que otras personas tienen que contar y, por supuesto, a todo
+          tipo de música.
+        </p>
+        <!-- TODO: Logo Rotterdam 2021 -->
+        <p class="text-justify">
+          En cuanto al logo, siguiendo el estilo del del año previo, este
+          representa de manera abstracta los colores de las banderas de los
+          países participantes según la ubicación geográfica de sus capitales
+          con respecto a Róterdam, pasando del concepto de "de dónde venimos" al
+          de "adónde vamos".
+        </p>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-6">
+        <h1 class="mt-4 mb-4">Participantes</h1>
+        <p class="text-justify">
+          Esta edición cuenta con un total de 40 países participantes. Hungría y
+          Montenegro mantienen su retirada como anunciaran el año anterior, a la
+          que se suma Armenia debido a su situación económica.
+        </p>
+        <p class="text-justify">
+          En esta página, podrás encontrar un
+          <b><router-link to="/singers">apartado</router-link></b> de cada
+          participante con su fotografía, nombre, canción y video músical para
+          que puedas escuchar cada canción
+        </p>
+
+        <p class="text-justify">
+          Cómo país anfitrión tenemos a <b>Países Bajos</b>, país ganador en
+          2019 y que le otorga el honor de organizar el festival y el paso
+          automático a la final.
+        </p>
+        <p class="text-justify">
+          Cómo paises formadores del <b>Big Five</b> tenemos a <b>España</b>,
+          <b>Italia</b>, <b>Francia</b>, <b>Alemania</b> y <b>Reino Unido</b>,
+          considerados así por ser los países que más aportan económicamente a
+          la UER (Unión Europea de Radiodifusión), encargada de retransmitir el
+          concurso. Estos pasan automáticamente a la final.
+        </p>
+        <div class="row mb-4 mt-4">
+          <div class="col">
+            <img src="../assets/EuroFlags/EuroNL.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroES.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroIT.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroDE.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroFR.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroGB.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroAL.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroAT.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroHR.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroMK.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroRS.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroCH.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroAU.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroDE.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroEE.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroFI.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroIS.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroNO.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroSE.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroAM.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroAZ.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroBY.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroGE.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroMD.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroRU.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroUA.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroBG.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroCY.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroGR.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroMT.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroPT.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroRO.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroSM.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroBE.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroCZ.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroIE.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroIL.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroLV.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroLT.png" alt="" class="flag" />
+            <img src="../assets/EuroFlags/EuroPL.png" alt="" class="flag" />
+          </div>
+        </div>
+        <p class="text-justify">
+          Los demás paises participantes (<b>Albania</b>, <b>Australia</b>,
+          <b>Austria</b>, <b>Azerbaiyán</b>, <b>Bélgica</b>, <b>Bielorrusia</b>,
+          <b>Bulgaria</b>, <b>Chipre</b>, <b>Croacia</b>, <b>Dinamarca</b>,
+          <b>Eslovenia</b>, <b>Estonia</b>, <b>Finlandia</b>, <b>Georgia</b>,
+          <b>Grecia</b>, <b>Irlanda</b>, <b>Islandia</b>, <b>Israel</b>,
+          <b>Letonia</b>, <b>Lituania</b>, <b>Macedonia del Norte</b>,
+          <b>Malta</b>, <b>Moldavia</b>, <b>Noruega</b>, <b>Polonia</b>,
+          <b>Portugal</b>, <b>República Checa</b>, <b>Rumania</b>, <b>Rusia</b>,
+          <b>San Marino</b>, <b>Serbia</b>, <b>Suecia</b>, <b>Suiza</b>,
+          <b>Ucrania</b> ) están obligados a participar en una semifinal, que
+          decidirá su paso a la final del concurso. Durante estas semifinales,
+          tanto el país anfitrión como los pertenecientes al Big Five tendrán
+          ocasión de presentar sus canciones al público antes de la gran final.
+        </p>
+      </div>
+    </div>
+  </div>
+</template>
+
+<style scoped>
+h1 {
+  color: #224488;
+}
+.flag {
+  max-width: 28px;
+  max-height: 28px;
+}
+</style>

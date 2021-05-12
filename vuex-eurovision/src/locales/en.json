@@ -1,0 +1,17 @@
+{
+  "header": {
+    "participants": "Participants",
+    "votes": "Votes",
+    "ranking": "Our ranking",
+    "about": "About me",
+    "user": {
+      "register": "Register",
+      "login": "Log In",
+      "logout": "Logout"
+    },
+    "language": {
+      "spanish": "ES",
+      "english": "EN"
+    }
+  }
+}
