@@ -22,22 +22,8 @@ Aquí se va a desarrollar una appliación web, dónde la mayor funcionalidad ser
 
 ## Gran Final _22/05/2021_
 
-### Participantes
-
-#### País Anfitrión:
-
-- [x] Países Bajos :netherlands: (_Birth of a New Age - Jeangu Macrooy_)
-
-#### Big Five:
-
-- [x] Gran Bretaña :uk: (_Embers - James Newman_)
-- [x] España :es: (_Voy a Quedarme - Blas Cantó_)
-- [x] Francia :fr: (_Voilá - Barbara Pravi_)
-- [x] Italia :it: (_Zitti e Buoni - Måneskin_ )
-- [x] Alemania :de: (_I Don't Feel Hate - Jendrik_)
-
-#### Participantes en la 1ª Semifinal: (_18/05/2021_)
-
+## Participantes
+### Participantes en la 1ª Semifinal: (_18/05/2021_)
 - [ ] Lithuania :lithuania: (_Discoteque - The Roop_)
 - [ ] Slovenia :slovenia: (_Amen - Ana Soklič_)
 - [ ] Russia :ru: (_Russian Woman - Manizha_)
@@ -55,8 +41,7 @@ Aquí se va a desarrollar una appliación web, dónde la mayor funcionalidad ser
 - [ ] Ukraine :ukraine: (_Shum - Go_A_)
 - [ ] Malta :malta: (_Je Me Casse - Destiny_)
 
-#### Participantes en la 2ª Semifinal: (_20/05/2021_)
-
+### Participantes en la 2ª Semifinal: (_20/05/2021_)
 - [ ] San Marino :san_marino: (_Adrenalina- Senhit_)
 - [ ] Estonia :estonia: (_The Lucky One - Uku Suviste_)
 - [ ] Czech Republic :czech_republic: (_Omaga - Benny Cristo_)
@@ -75,4 +60,16 @@ Aquí se va a desarrollar una appliación web, dónde la mayor funcionalidad ser
 - [ ] Switzerland :switzerland: (_Tout L'Univers - Gjon's Tears_)
 - [ ] Denmark :denmark: (_Øve os på hinanden - Fyr og Flamme_)
 
-#### No clasificados:
+### No clasificados:
+
+### Final _22/05/2021_
+#### País Anfitrión:
+- [x] Países Bajos :netherlands: (_Birth of a New Age - Jeangu Macrooy_)
+#### Big Five:
+- [x] Gran Bretaña :uk: (_Embers - James Newman_)
+- [x] España :es: (_Voy a Quedarme - Blas Cantó_)
+- [x] Francia :fr: (_Voilá - Barbara Pravi_)
+- [x] Italia :it: (_Zitti e Buoni - Måneskin_ )
+- [x] Alemania :de: (_I Don't Feel Hate - Jendrik_)
+#### Semifinalistas:
+
