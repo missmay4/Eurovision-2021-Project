@@ -9,57 +9,61 @@ const bcrypt = require('bcrypt');
 const saltRounds = 10;
 
 // Filtrar campos de PUT
-const _ = require('underscore');
+// const _ = require('underscore');
 
-router.post('/user',/*[checkAuth, checkRole('Patata')],*/ async (req, res) => {
-
+router.post('/create-user',/*[checkAuth, checkRole('Patata')],*/ async (request, response) => {
     Logger.info("Creating new User ... ")
-
     const body = {
-        name: req.body.name,
-        role: req.body.role
+        name: request.body.name,
+        role: request.body.role,
+        country: request.body.country
     }
-    body.password = bcrypt.hashSync(req.body.password, saltRounds);
+    body.password = bcrypt.hashSync(request.body.password, saltRounds);
     try {
-        Logger.info("Calls userService.createUser")
+        Logger.info("userService.createUser")
         Logger.debug(JSON.stringify(body))
         const userDB = await userService.createUser(body);
         Logger.info("Response JSON")
         Logger.debug(JSON.stringify(userDB))
-        res.send(JSON.stringify(userDB))
+        response.send(JSON.stringify(userDB))
     } catch (error) {
-
         Logger.error(error)
-
-        return res.status(500).json({
-            msg: 'Error creating the user',
+        return response.status(500).json({
+            msg: 'An error creating the user',
             error
         });
     }
 });
 
-router.get('/users', async (req, res) => {
+router.get('/get_users', async (req, res) => {
     try {
         const response = await userService.getUsers();
         res.send(JSON.stringify(response))
-
     } catch (error) {
         Logger.error(error)
-        // console.log(error)
-        res.statusCode = 500
-        res.send({
-            errorMessage: error,
-            statusCode: 500
+        return response.status(500).json({
+            msg: 'An error creating the user',
+            error
         });
-
     }
-})
-
-router.get('/', function (req, res, next) {
-    res.send('Respond with a resource');
 });
 
-router.put('/user/:id', [checkAuth, checkRole], async (req, res) => {
+router.get('/get_user/:id', async (request, res) => {
+    let id = request.params.id;
+    try {
+        const response = await userService.getUser(id)
+        res.send(JSON.stringify(response))
+    } catch (error) {
+        Logger.error(error)
+        return response.status(500).json({
+            msg: 'An error creating the user',
+            error
+        });
+    }
+});
+
+// MODIFICAR EL USUARIO?
+/* router.put('/user/:id', [checkAuth, checkRole], async (req, res) => {
 
     let id = req.params.id;
     let body = _.pick(req.body, ['name', 'role', 'password', 'country']);
@@ -80,7 +84,7 @@ router.put('/user/:id', [checkAuth, checkRole], async (req, res) => {
         })
     }
 
-});
+}); */
 
 router.delete('/user/:id', [checkAuth, checkRole], async (req, res) => {
 
@@ -103,51 +107,3 @@ router.delete('/user/:id', [checkAuth, checkRole], async (req, res) => {
 });
 
 module.exports = router;
-
-/* const express = require('express');
-const router = express.Router();
-
-router.post('/user', async (req, res) => {
-    try {
-        // TODO: create user
-    } catch (error) {
-        console.log(error)
-        res.statusCode = 500
-        res.send({
-            errorMessage: JSON.stringify(error),
-            statusCode: 500
-        });
-
-    }
-})
-router.get('/user/:id', async (req, res) => {
-    try {
-        // TODO: create user
-    } catch (error) {
-        console.log(error)
-        res.statusCode = 500
-        res.send({
-            errorMessage: error,
-            statusCode: 500
-        });
-    }
-})
-
-router.get('/users', async (req, res) => {
-    try {
-        const response = await UserService.getUsers();
-        res.send(JSON.stringify(response))
-
-    } catch (error) {
-        console.log(error)
-        res.statusCode = 500
-        res.send({
-            errorMessage: error,
-            statusCode: 500
-        });
-
-    }
-})
-
-
-exports.router = router; */
