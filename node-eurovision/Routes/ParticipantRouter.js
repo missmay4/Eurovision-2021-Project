@@ -1,4 +1,5 @@
-const router = require('express').Router();
+const express = require('express');
+const router = express.Router();
 const { json } = require('express');
 const ParticipantService = require('../Services/ParticipantsService')
 
@@ -55,5 +56,4 @@ router.get('/participants', async (require, response) => {
     }
 })
 
-
-exports.router = router;
+module.exports = router;
