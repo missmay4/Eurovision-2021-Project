@@ -61,19 +61,8 @@
 </template>
 
 <script>
-import { mapActions, mapGetters } from "vuex";
-
 export default {
   name: "Header",
-  methods: {
-    ...mapActions(["endSession", "readToken"]),
-  },
-  computed: {
-    ...mapGetters(["isActive"]),
-  },
-  created() {
-    this.readToken();
-  },
 };
 </script>
 

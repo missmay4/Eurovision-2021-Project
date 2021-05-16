@@ -28,7 +28,7 @@ server.use('/', ParticipantRouter);
 
 // router for users and login
 server.use('/users', userRouter);
-server.use('/login', require('./Routes/login'));
+server.use('/user', require('./Routes/login'));
 
 // router for favorites and votes
 server.use('favorites', favoritesRouter)

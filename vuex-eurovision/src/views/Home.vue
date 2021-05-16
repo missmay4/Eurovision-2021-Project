@@ -47,13 +47,9 @@
             placeholder="Type your password"
             aria-describedby="password-help-block"
           ></b-form-input>
-          <b-form-text id="password-help-block">
-            Your password must be 8-20 characters long, contain letters and
-            numbers, and must not contain spaces, special characters, or emoji.
-          </b-form-text>
         </b-form-group>
         <b-form-group>
-          <b-form-select v-model="user.country" :options="countries">
+          <b-form-select v-model="user.country" :options="countries_combo">
             <template #first>
               <b-form-select-option :value="null" disabled
                 >Select your country</b-form-select-option
@@ -64,7 +60,12 @@
       </b-form>
       <template #modal-footer>
         <div class="w-100">
-          <b-button variant="primary" size="sm" class="float-right mr-2">
+          <b-button
+            variant="primary"
+            size="sm"
+            class="float-right mr-2"
+            @click="register()"
+          >
             <!-- TODO: Register submit -->
             Create user
           </b-button>
@@ -90,17 +91,15 @@
             aria-describedby="password-help-block"
           ></b-form-input>
         </b-form-group>
+        <p v-if="error" class="error">Usuario o contraseña incorrectos.</p>
       </b-form>
-      <div v-if="error_msg !== ''">
-        <p>{{ error_msg }}</p>
-      </div>
       <template #modal-footer>
         <div class="w-100">
           <b-button
             variant="primary"
             size="sm"
             class="float-right mr-2"
-            @click="login(user)"
+            @click="login()"
           >
             Log-in
           </b-button>
@@ -114,31 +113,23 @@
 <script>
 // @ is an alias to /src
 import Countdown from "@/components/Countdown.vue";
-import { mapMutations, mapActions } from "vuex";
 import participantsServices from "@/services/participantsServices";
-import userServices from "@/services/userServices";
+import auth from "@/services/auth";
 
 export default {
   name: "home",
   components: {
     Countdown,
   },
-  data() {
-    return {
-      /*user: {
-        name: null,
-        password: null,
-        country: null,
-      }, */
-      user: {
-        name: null,
-        password: null,
-        country: null,
-      },
-      error_msg: "",
-      countries: null,
-    };
-  },
+  data: () => ({
+    user: {
+      name: null,
+      password: null,
+      country: null,
+    },
+    countries_combo: [],
+    error: null,
+  }),
   mounted() {
     this.getCountries();
   },
@@ -148,12 +139,12 @@ export default {
         .get_participants()
         .then((response) => {
           let aux = response.data;
-          let countriesList = [];
           for (let i in aux) {
-            countriesList.push(aux[i].country.name);
+            this.countries_combo.push({
+              value: aux[i].country.code,
+              text: aux[i].country.name,
+            });
           }
-          console.log(countriesList);
-          this.countries = countriesList;
         })
         .catch(() => {
           console.log(
@@ -161,19 +152,21 @@ export default {
           );
         });
     },
-    ...mapMutations(["getUser"]),
-    ...mapActions(["saveUser", "readToken", "endSession"]),
-    login(user) {
-      userServices
-        .log_user(user)
-        .then((response) => {
-          const token = response.data.token;
-          this.saveUser(token);
-        })
-        .catch((error) => {
-          console.log(error.response.data.error_msg);
-          this.error_msg = error.response.data.error_msg;
-        });
+    async login() {
+      try {
+        await auth.login(this.user.name, this.user.password);
+        this.$router.push("/singers");
+      } catch (error) {
+        this.error = true;
+      }
+    },
+    async register() {
+      const response = await auth.register(
+        this.user.name,
+        this.user.password,
+        this.user.country
+      );
+      console.log(response);
     },
   },
 };

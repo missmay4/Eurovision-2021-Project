@@ -9,6 +9,10 @@ exports.getUsers = async () => {
 exports.getUser = async (userID) => {
     return UsersModel.findOne({ _id: userID })
 }
+
+exports.getUsername = async (name) => {
+    return UsersModel.findOne({ name: name })
+}
 exports.updateUser = async (user) => {
     return UsersModel.updateOne({ _id: user._id }, user)
 }

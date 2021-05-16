@@ -1,15 +1,17 @@
 const express = require('express');
 const router = express.Router();
-const userModel = require('../Schemas/UserSchema')
+const userService = require('./../Daos/UsersDao')
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
-const saltRounds = 10;
+let Logger = require('../Utils/logger').Logger
 
-router.post('/', async (req, res) => {
+// const saltRounds = 10;
+
+router.post('/login', async (req, res) => {
     let body = req.body;
     try {
         // Search country in database
-        const userDB = await userModel.findOne({ country: body.country });
+        const userDB = await userService.getUsername(body.name);
 
         // Look if user exists in database
         if (!userDB) {
@@ -36,6 +38,7 @@ router.post('/', async (req, res) => {
             token: token
         })
     } catch (error) {
+        Logger.error(error)
         return res.status(400).json({
             msg: 'An error ocurrend trying to log-in',
             error

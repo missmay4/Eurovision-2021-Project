@@ -21,7 +21,6 @@ const routes = [
     path: '/singers',
     name: 'listParticipants',
     component: () => import(/* webpackChunkName: "listParticipants" */ '../views/listParticipants.vue'),
-    // meta: { requireAuth: true }
   },
   {
     path: '/firstSemifinal',
@@ -51,15 +50,5 @@ const routes = [
 const router = new VueRouter({
   routes
 })
-
-/* router.beforeEach((to, from, next) => {
-  const protectedRoute = to.matched.some(record => record.meta.requireAuth);
-
-  if (protectedRoute && store.state.token === '') {
-    next({ name: 'Home' })
-  } else {
-    next()
-  }
-}) */
 
 export default router

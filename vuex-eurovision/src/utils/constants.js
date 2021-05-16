@@ -2,13 +2,10 @@
 const urlApi = ''
 const participant = 'participant'
 const participants = "participants"
-const user = 'user'
 
 const services = {
     'GET_PARTICIPANTS': urlApi + participants,
-    'GET_PARTICIPANT': urlApi + participant,
-    'POST_USER': urlApi + user
-
+    'GET_PARTICIPANT': urlApi + participant
 }
 
 export const constants = {
